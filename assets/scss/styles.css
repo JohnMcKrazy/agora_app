@@ -214,6 +214,7 @@ body INPUT {
   height: fit-content;
   background: var(--bgAlert);
   border-radius: var(--borderRadiusContent);
+  padding: 1rem;
   z-index: var(--zIndexAlert);
 }
 
