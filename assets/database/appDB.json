@@ -1,0 +1,1340 @@
+{
+  "data": [
+    {
+      "cliente_itemId": 1,
+      "clienteId": "vol-01.10.2020",
+      "cliente_data": {
+        "cliente_nombre": "Volaris",
+        "cliente_rubro": ["viajes", "ventas"],
+        "users": [
+          {
+            "userId": "MX-1-1",
+            "user_nickname": "JohnKZ24",
+            "user_password": "1234",
+            "user_access": "desarrollador",
+            "user_img": "./assets/img/users_img/JohnKrazy.jpg",
+            "user_first_name": "John",
+            "user_last_name": "Krazy",
+            "user_name": "John Krazy"
+          },
+          {
+            "userId": "MX-14-1",
+            "user_nickname": "principeVegeta45",
+            "user_password": "12345678",
+            "user_access": "cliente",
+            "user_img": "../img/MarobintioGonzalez.jpg",
+            "user_first_name": "Marobintio",
+            "user_last_name": "Gonzalez",
+            "user_name": "Marobintio Gonzalez"
+          },
+          {
+            "userId": "MX-74-1",
+            "user_nickname": "deyaniraRuby",
+            "user_password": "12345678",
+            "user_access": "codificador",
+            "user_img": "../img/DeyaniraRuby.jpg",
+            "user_first_name": "Deyanira",
+            "user_last_name": "Ruby",
+            "user_name": "Deyanira Ruby"
+          }
+        ],
+        "encuestas": {
+          "verbalizaciones": [
+            {
+              "verbalizacion_itemId": 1,
+              "verbalizacionId": "vol-iv",
+              "verbalizacion_nombre": "Identidad viajando",
+              "info_verbalizacion": [
+                {
+                  "preguntaId": 1,
+                  "pregunta": "¿Que destinos quieres conocer?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N99-S99-C666",
+                      "netos": {
+                        "netoId": "N99",
+                        "fraseo": "México",
+                        "subnetos": {
+                          "subnetoId": "S99",
+                          "fraseo": "Jalisco (Estado)",
+                          "codigos": [
+                            {
+                              "codigoId": "C666",
+                              "fraseo": "Guadalajara",
+                              "referencias": []
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N99-S99-C666",
+                      "netos": {
+                        "netoId": "N99",
+                        "fraseo": "México",
+                        "subnetos": {
+                          "subnetoId": "S100",
+                          "fraseo": "Baja California Norte (Estado)",
+                          "codigos": [
+                            {
+                              "codigoId": "C667",
+                              "fraseo": "Loa Cabos"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N99-S99-C666",
+                      "netos": {
+                        "netoId": "N99",
+                        "fraseo": "México",
+                        "subnetos": {
+                          "subnetoId": "S100",
+                          "fraseo": "Baja California Norte (Estado)",
+                          "codigos": [
+                            {
+                              "codigoId": "C668",
+                              "fraseo": "Cabos San Lucas"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "preguntaId": 2,
+                  "pregunta": "¿Sitios turisticos a visitar?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N378-S99-C67",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S99",
+                          "fraseo": "Camara",
+                          "codigos": {
+                            "codigoId": "C67",
+                            "fraseo": "Mas de 20mx",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N378-S680-C667",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S680",
+                          "fraseo": "Puertos",
+                          "codigos": {
+                            "codigoId": "C667",
+                            "fraseo": "Auxiliar / Audifonos",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N378-S680-C657",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S680",
+                          "fraseo": "Puertos",
+                          "codigos": {
+                            "codigoId": "C657",
+                            "fraseo": "Puerto de carga USB-C",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "preguntaId": 3,
+                  "pregunta": "¿De que colores te gustan mas tus dispositivos?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N9654",
+                      "netos": {
+                        "netoId": "N9654",
+                        "fraseo": "Rojo",
+                        "subnetos": []
+                      }
+                    },
+                    {
+                      "codeSetId": "N9655",
+                      "netos": {
+                        "netoId": "N9655",
+                        "fraseo": "Negro",
+                        "subnetos": []
+                      }
+                    },
+                    {
+                      "codeSetId": "N9656",
+                      "netos": {
+                        "netoId": "N9656",
+                        "fraseo": "Azul",
+                        "subnetos": []
+                      }
+                    },
+                    {
+                      "codeSetId": "N9657",
+                      "netos": {
+                        "netoId": "N9657",
+                        "fraseo": "Morado",
+                        "subnetos": []
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usableSets": [
+            {
+              "netoId": "N99",
+              "fraseo": "México (Pais)",
+              "subnetos": [
+                {
+                  "subnetoId": "S99",
+                  "fraseo": "Jalisco (Estado)",
+                  "codigos": [
+                    {
+                      "codigoId": "C666",
+                      "fraseo": "Guadalajara",
+                      "referencias": []
+                    }
+                  ]
+                },
+                {
+                  "subnetoId": "S100",
+                  "fraseo": "Baja California Norte",
+                  "codigos": [
+                    {
+                      "codigoId": "C577",
+                      "fraseo": "Los Cabos",
+                      "referencias": []
+                    },
+                    {
+                      "codigoId": "C578",
+                      "fraseo": "Cabo San Lucas",
+                      "referencias": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cliente_itemId": 2,
+      "clienteId": "NOK-02.10.2020",
+      "cliente_data": {
+        "cliente_nombre": "Nokia",
+        "cliente_rubro": ["Electronica", "Tecnologia", "Celulares"],
+        "users": [
+          {
+            "userId": "MX-145-1",
+            "user_nickname": "JohnKZ26",
+            "user_password": "1234",
+            "user_access": "desarrollador",
+            "user_img": "./assets/img/users_img/JohnKrazy.jpg",
+            "user_first_name": "John",
+            "user_last_name": "Krazy",
+            "user_name": "John Krazy"
+          },
+          {
+            "userId": "MX-15-1",
+            "user_nickname": "principeVegeta47",
+            "user_password": "1234",
+            "user_access": "cliente",
+            "user_img": "../img/MarobintioGonzalez.jpg",
+            "user_first_name": "Marobintio",
+            "user_last_name": "Gonzalez",
+            "user_name": "Marobintio Gonzalez"
+          },
+          {
+            "userId": "MX-746-1",
+            "user_nickname": "deyaniraRuby3",
+            "user_password": "1234",
+            "user_access": "codificador",
+            "user_img": "../img/DeyaniraRuby.jpg",
+            "user_first_name": "Deyanira",
+            "user_last_name": "Ruby",
+            "user_name": "Deyanira Ruby"
+          }
+        ],
+        "encuestas": {
+          "verbalizaciones": [
+            {
+              "verbalizacion_itemId": 1,
+              "verbalizacionId": "nok-cm",
+              "verbalizacion_nombre": "Celulares en el mundo",
+              "info_verbalizacion": [
+                {
+                  "preguntaId": 1,
+                  "pregunta": "¿Cuales consideras los mejores celulares?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N929-S298-C638",
+                      "netos": {
+                        "netoId": "N929",
+                        "fraseo": "Taiwan",
+                        "subnetos": {
+                          "subnetoId": "S98",
+                          "fraseo": "one+ / oneplus",
+                          "codigos": {
+                            "codigoId": "C638",
+                            "fraseo": "oppo max",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N993-S938-C666",
+                      "netos": {
+                        "netoId": "N993",
+                        "fraseo": "USA",
+                        "subnetos": {
+                          "subnetoId": "S938",
+                          "fraseo": "Apple",
+                          "codigos": {
+                            "codigoId": "C666",
+                            "fraseo": "Iphone",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "preguntaId": 2,
+                  "pregunta": "¿Cuales son las cualidades que prefieres?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N378-S99-C67",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S99",
+                          "fraseo": "Camara",
+                          "codigos": {
+                            "codigoId": "C67",
+                            "fraseo": "Mas de 20mx",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N378-S680-C667",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S680",
+                          "fraseo": "Puertos",
+                          "codigos": {
+                            "codigoId": "C667",
+                            "fraseo": "Auxiliar / Audifonos",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N378-S680-C657",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S680",
+                          "fraseo": "Puertos",
+                          "codigos": {
+                            "codigoId": "C657",
+                            "fraseo": "Puerto de carga USB-C",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "preguntaId": 3,
+                  "pregunta": "¿De que colores te gustan mas tus dispositivos?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N9654",
+                      "netos": {
+                        "netoId": "N9654",
+                        "fraseo": "Rojo",
+                        "subnetos": []
+                      }
+                    },
+                    {
+                      "codeSetId": "N9655",
+                      "netos": {
+                        "netoId": "N9655",
+                        "fraseo": "Negro",
+                        "subnetos": []
+                      }
+                    },
+                    {
+                      "codeSetId": "N9656",
+                      "netos": {
+                        "netoId": "N9656",
+                        "fraseo": "Azul",
+                        "subnetos": []
+                      }
+                    },
+                    {
+                      "codeSetId": "N9657",
+                      "netos": {
+                        "netoId": "N9657",
+                        "fraseo": "Morado",
+                        "subnetos": []
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "verbalizacion_itemId": 2,
+              "verbalizacionId": "nok-ms",
+              "verbalizacion_nombre": "Mejora de servicio",
+              "info_verbalizacion": [
+                {
+                  "preguntaId": 1,
+                  "pregunta": "¿Que mejorarias de nuestro producto?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N378-S47-C664",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S47",
+                          "fraseo": "Carcasa",
+                          "codigos": {
+                            "codigoId": "C664",
+                            "fraseo": "Metalica",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N378-S99-C67",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S99",
+                          "fraseo": "Camara",
+                          "codigos": {
+                            "codigoId": "C67",
+                            "fraseo": "Mas de 20mp",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N378-S99-C69",
+                      "netos": {
+                        "netoId": "N378",
+                        "fraseo": "Hardware",
+                        "subnetos": {
+                          "subnetoId": "S99",
+                          "fraseo": "Camara",
+                          "codigos": {
+                            "codigoId": "C69",
+                            "fraseo": "Lente Macro",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N26-S33-C82",
+                      "netos": {
+                        "netoId": "N26",
+                        "fraseo": "Costo",
+                        "subnetos": [
+                          {
+                            "subnetoId": "S33",
+                            "fraseo": "Menor",
+                            "codigos": [
+                              {
+                                "codigoId": "C82",
+                                "fraseo": "Menos de $5,500.00",
+                                "referencias": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "preguntaId": 2,
+                  "pregunta": "¿Donde sueles comprar tus productos?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "coded",
+                  "usableSets": [
+                    {
+                      "codeSetId": "N888-S277-C56-R27",
+                      "netos": {
+                        "netoId": "N888",
+                        "fraseo": "Tienda fisica",
+                        "subnetos": {
+                          "subnetoId": "S277",
+                          "fraseo": "Tienda autorizada",
+                          "codigos": {
+                            "codigoId": "C56",
+                            "fraseo": "Supermercado",
+                            "referencias": { "referenciaId": "R27", "fraseo": "Walmart" }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N888-S277-C56-R29",
+                      "netos": {
+                        "netoId": "N888",
+                        "fraseo": "Tienda fisica",
+                        "subnetos": {
+                          "subnetoId": "S277",
+                          "fraseo": "Tienda autorizada",
+                          "codigos": {
+                            "codigoId": "C56",
+                            "fraseo": "Supermercado",
+                            "referencias": { "referenciaId": "R29", "fraseo": "Liverpool" }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N888-S289-C672",
+                      "netos": {
+                        "netoId": "N888",
+                        "fraseo": "Tienda fisica",
+                        "subnetos": {
+                          "subnetoId": "S289",
+                          "fraseo": "Tienda no autorizada",
+                          "codigos": {
+                            "codigoId": "C672",
+                            "fraseo": "Radioshack",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N889-S794-C82",
+                      "netos": {
+                        "netoId": "N889",
+                        "fraseo": "Tienda Virtual",
+                        "subnetos": {
+                          "subnetoId": "S794",
+                          "fraseo": "Tienda Autorizada",
+                          "codigos": {
+                            "codigoId": "C82",
+                            "fraseo": "Mercado LIbre",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "codeSetId": "N889-S794-C82",
+                      "netos": {
+                        "netoId": "N889",
+                        "fraseo": "Tienda Virtual",
+                        "subnetos": {
+                          "subnetoId": "S794",
+                          "fraseo": "Tienda Autorizada",
+                          "codigos": {
+                            "codigoId": "C85",
+                            "fraseo": "Amazon",
+                            "referencias": []
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "preguntaId": 3,
+                  "pregunta": "¿Cuanto es lo mas que has pagado por un producto?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "no coded",
+                  "usableSets": []
+                }
+              ]
+            },
+            {
+              "verbalizacion_itemId": 3,
+              "verbalizacionId": "nok-et",
+              "verbalizacion_nombre": "Electronica para todos",
+              "info_verbalizacion": [
+                {
+                  "preguntaId": 1,
+                  "pregunta": "¿Que aparatos electronicos utilizas mas?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "no coded",
+                  "usableSets": []
+                },
+                {
+                  "preguntaId": 2,
+                  "pregunta": "¿Que tanto crees que dominas el uso del producto?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "no coded",
+                  "usableSets": []
+                },
+                {
+                  "preguntaId": 3,
+                  "pregunta": "¿Cuantos electronicos sueles cargar diariamente?",
+                  "reportar": false,
+                  "reporte": "",
+                  "ticket_reporte": "",
+                  "coded_status": "no coded",
+                  "usableSets": []
+                }
+              ]
+            }
+          ],
+          "usableSets": [
+            {
+              "netoId": "N929",
+              "fraseo": "Taiwan",
+              "subnetos": [
+                {
+                  "subnetoId": "S98",
+                  "fraseo": "one+ / oneplus",
+                  "codigos": [
+                    {
+                      "codigoId": "C638",
+                      "fraseo": "oppo max",
+                      "referencias": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "netoId": "N993",
+              "fraseo": "USA",
+              "subnetos": [
+                {
+                  "subnetoId": "S938",
+                  "fraseo": "Apple",
+                  "codigos": [
+                    {
+                      "codigoId": "C666",
+                      "fraseo": "Iphone",
+                      "referencias": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "netoId": "N378",
+              "fraseo": "Hardware",
+              "subnetos": [
+                {
+                  "subnetoId": "S99",
+                  "fraseo": "Camara",
+                  "codigos": [
+                    {
+                      "codigoId": "C67",
+                      "fraseo": "Mas de 20mx",
+                      "referencias": []
+                    },
+                    {
+                      "codigoId": "C69",
+                      "fraseo": "Lente Macro",
+                      "referencias": []
+                    }
+                  ]
+                },
+                {
+                  "subnetoId": "S680",
+                  "fraseo": "Puertos",
+                  "codigos": [
+                    {
+                      "codigoId": "C667",
+                      "fraseo": "Auxiliar / Audifonos",
+                      "referencias": []
+                    },
+                    {
+                      "codigoId": "C657",
+                      "fraseo": "Puerto de carga USB-C",
+                      "referencias": []
+                    }
+                  ]
+                },
+                {
+                  "subnetoId": "S47",
+                  "fraseo": "Carcasa",
+                  "codigos": [
+                    {
+                      "codigoId": "C664",
+                      "fraseo": "Metalica",
+                      "referencias": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "netoId": "N9654",
+              "fraseo": "Rojo",
+              "subnetos": []
+            },
+            {
+              "netoId": "N9655",
+              "fraseo": "Negro",
+              "subnetos": []
+            },
+            {
+              "netoId": "N9656",
+              "fraseo": "Azul",
+              "subnetos": []
+            },
+            {
+              "netoId": "N9657",
+              "fraseo": "Morado",
+              "subnetos": []
+            },
+            {
+              "netoId": "N888",
+              "fraseo": "Tienda fisica",
+              "subnetos": [
+                {
+                  "subnetoId": "S277",
+                  "fraseo": "Tienda Autorizada",
+                  "codigos": [
+                    {
+                      "codigoId": "C56",
+                      "fraseo": "Supermercado",
+                      "referencias": [
+                        { "referenciaId": "R27", "fraseo": "Walmart" },
+                        { "referenciaId": "R29", "fraseo": "Liverpool" }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "subnetoId": "S289",
+                  "fraseo": "Tienda no autorizada",
+                  "codigos": [
+                    {
+                      "codigoId": "C672",
+                      "fraseo": "Radioshack",
+                      "referencias": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "netoId": "N889",
+              "fraseo": "Tienda Virtual",
+              "subnetos": [
+                {
+                  "subnetoId": "S794",
+                  "fraseo": "Tienda Autorizada",
+                  "codigos": [
+                    {
+                      "codigoId": "C546",
+                      "fraseo": "Third party",
+                      "referencias": [
+                        {
+                          "referenciaId": "R82",
+                          "fraseo": "Mercado LIbre"
+                        },
+                        {
+                          "referenciaId": "R85",
+                          "fraseo": "Amazon"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "cliente_itemId": 3,
+      "clienteId": "NIK-01.05.2022",
+      "cliente_data": {
+        "cliente_nombre": "Nike",
+        "cliente_rubro": ["Deportes", "Ropa", "Tenis", "Equipo deportivo"],
+        "users": [
+          {
+            "userId": "MX-145-1",
+            "user_nickname": "JohnKZ1",
+            "user_password": "1234",
+            "user_access": "Desarrollador",
+            "user_img": "./assets/img/users_img/JohnKrazy.jpg",
+            "user_first_name": "John",
+            "user_last_name": "Krazy",
+            "user_name": "John Krazy"
+          },
+          {
+            "userId": "MX-15-1",
+            "user_nickname": "principeVegeta1",
+            "user_password": "1234",
+            "user_access": "Cliente",
+            "user_img": "../img/MarobintioGonzalez.jpg",
+            "user_first_name": "Marobintio",
+            "user_last_name": "Gonzalez",
+            "user_name": "Marobintio Gonzalez"
+          },
+          {
+            "userId": "MX-746-1",
+            "user_nickname": "deyaniraRuby1",
+            "user_password": "1234",
+            "user_access": "Codificador",
+            "user_img": "../img/DeyaniraRuby.jpg",
+            "user_first_name": "Deyanira",
+            "user_last_name": "Ruby",
+            "user_name": "Deyanira Ruby"
+          }
+        ],
+        "verbalizaciones": [
+          {
+            "verbalizacion_itemId": 1,
+            "verbalizacionId": "NIK-MC",
+            "verbalizacion_nombre": "Mundo confortable",
+            "info_verbalizacion": [
+              {
+                "preguntaId": 1,
+                "pregunta": "¿Cuantos pares de tenis posee?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 2,
+                "pregunta": "¿Cuantos pares de tenis usa con frecuencia?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 3,
+                "pregunta": "¿De que material son las suelas del calzado que mas utilizas para hacer ejercicio?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 4,
+                "pregunta": "¿Por que prefieres las suelas de tipo '(anterior respuesta/s)'?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 5,
+                "pregunta": "¿Sientes mas confortable pisar con el calzado de que marca?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 6,
+                "pregunta": "¿Por que sientes mas confortable el calzado de '(anterior respuesta/s)'?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 7,
+                "pregunta": "¿Prefieres algun tipo de material para tus tenis?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 8,
+                "pregunta": "¿Por que prefieres las suelas de tipo '(anterior respuesta/s)'?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 9,
+                "pregunta": "¿Cuantos dias usa tenis a la semana?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 10,
+                "pregunta": "¿Cuantas horas usa tenis cada uno de esos dias?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 11,
+                "pregunta": "¿En que situaciones de su vida utiliza tenis?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 12,
+                "pregunta": "¿Cada cuanto utiliza sudadera?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 13,
+                "pregunta": "¿Cuenta con alguna sudadera?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 14,
+                "pregunta": "¿Cada cuanto utiliza sudadera?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 15,
+                "pregunta": "¿Se siente comodo al usar sudadera?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 16,
+                "pregunta": "¿Cuantas sudaderas tiene?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 17,
+                "pregunta": "¿Utiluza shorts regularmente?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 18,
+                "pregunta": "¿De que material prefiere los shorts?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 19,
+                "pregunta": "¿De que largo prefiere los shorts?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 20,
+                "pregunta": "¿Que actividades realiza en shorts?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 21,
+                "pregunta": "¿Conoze la marca Nike?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              }
+            ]
+          },
+          {
+            "verbalizacion_itemId": 1,
+            "verbalizacionId": "NIK-VF",
+            "verbalizacion_nombre": "Viviendo fresco",
+            "info_verbalizacion": [
+              {
+                "preguntaId": 1,
+                "pregunta": "¿cuando te ejercitas que tipo de ropa utilizas?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              },
+              {
+                "preguntaId": 2,
+                "pregunta": "¿Te ejercitas regularmente?",
+                "coded_status": "no coded",
+                "usableSets": [],
+                "reportar": false,
+                "reporte": "",
+                "ticket_reporte": ""
+              }
+            ]
+          }
+        ],
+        "usableSets": [
+          {
+            "codeId": "1",
+            "fraseo": "Calzado",
+            "codes": [
+              {
+                "codeId": "1",
+                "ref": "Calzado",
+                "codeRefId": "1-1",
+                "fraseo": "Tenis",
+                "codes": [
+                  {
+                    "codeId": "1",
+                    "ref": "Tenis",
+                    "codeRefId": "1-1-1",
+                    "fraseo": "Marca",
+                    "codes": [
+                      {
+                        "codeId": "1",
+                        "ref": "Marca",
+                        "codeRefId": "1-1-1-1",
+                        "fraseo": "Nike"
+                      },
+                      {
+                        "codeId": "2",
+                        "ref": "Marca",
+                        "codeRefId": "1-1-1-2",
+                        "fraseo": "Adidas"
+                      },
+                      {
+                        "codeId": "3",
+                        "ref": "Marca",
+                        "codeRefId": "1-1-1-3",
+                        "fraseo": "Rebok"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "codeId": "2",
+            "fraseo": "Ropa"
+          },
+          {
+            "codeId": "3",
+            "fraseo": "Accesorio"
+          }
+        ]
+      }
+    }
+  ],
+  "appColors": {
+    "coldColors": [
+      "#192348",
+      "#1b264f",
+      "#213670",
+      "#243e80",
+      "#274690",
+      "#3f599c",
+      "#576ca8",
+      "#7da3d4",
+      "#a3d9ff",
+      "#b2e4ff",
+      "#c1eeff",
+      "#C7F0FF"
+    ],
+    "coldestColors": [
+      "#ABB2C7",
+      "#BCC4DB",
+      "#B2BDD9",
+      "#A8B5D7",
+      "#93A6D2",
+      "#7E97CE",
+      "#6987C9",
+      "#5A71A8",
+      "#4A5A86",
+      "#3B4464",
+      "#2B2D42",
+      "#3E4053"
+    ],
+    "warmColors": [
+      "#ffd18c",
+      "#fabd7c",
+      "#f4a86b",
+      "#ee945b",
+      "#e87f4a",
+      "#e26b3a",
+      "#dc5629",
+      "#d64119",
+      "#d33711",
+      "#d02c08"
+    ]
+  },
+  "appUsableSets": {
+    "listas": {
+      "paises": {
+        "codeSetId": "access_platino-paises",
+        "fraseo": "Seleccion de paises",
+        "codes": [
+          {
+            "codeId": "1",
+            "fraseo": "Pais",
+            "codes": [
+              {
+                "codeId": "99",
+                "codeRefId": "1-99",
+                "fraseo": "México",
+                "codes": [
+                  {
+                    "codeId": "48",
+                    "codeRefId": "1-99-48",
+                    "fraseo": "Estado",
+                    "codes": [
+                      {
+                        "codeId": "177",
+                        "codeRefId": "1-99-48-177",
+                        "fraseo": "Ciudad de México / CDMX",
+                        "codes": [
+                          {
+                            "codeId": "28",
+                            "codeRefId": "1-99-48-177-28",
+                            "fraseo": "Alcaldia",
+                            "codes": [
+                              {
+                                "codeId": "15",
+                                "codeRefId": "1-99-48-177-28-15",
+                                "fraseo": "Azcapotzalco",
+                                "codes": [
+                                  {
+                                    "codeId": "23",
+                                    "codeRefId": "1-99-48-177-28-15-23",
+                                    "fraseo": "Colonia",
+                                    "codes": [
+                                      {
+                                        "codeId": "2",
+                                        "codeRefId": "1-99-48-177-28-15-23-2",
+                                        "fraseo": "San Juan Tlihuaca",
+                                        "codes": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "codeId": "178",
+                        "codeRefId": "1-99-48-178",
+                        "fraseo": "Jalisco / Jal",
+                        "codes": []
+                      }
+                    ]
+                  },
+                  {
+                    "codeRefId": "1-99-69",
+                    "codeId": "69",
+                    "fraseo": "Municipio",
+                    "codes": []
+                  },
+                  {
+                    "codeRefId": "1-99-31",
+                    "codeId": "31",
+                    "fraseo": "Alcaldia",
+                    "codes": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "colores": {
+        "codeSetId": "access_basic-colores",
+        "fraseo": "Seleccion de colores",
+        "codes": [
+          {
+            "codeId": "2",
+            "fraseo": "Colores basicos",
+            "codes": [
+              {
+                "codeId": "576",
+                "codeRefId": "2-576",
+                "fraseo": "Rojo"
+              },
+              {
+                "codeId": "577",
+                "codeRefId": "2-577",
+                "fraseo": "Azul"
+              },
+              {
+                "codeId": "578",
+                "codeRefId": "2-578",
+                "fraseo": "Amarillo"
+              },
+              {
+                "codeId": "579",
+                "codeRefId": "2-579",
+                "fraseo": "Verde"
+              }
+            ]
+          },
+          {
+            "codeId": "247",
+            "fraseo": "Colores basicos mezclados",
+            "codes": [
+              {
+                "codeId": "580",
+                "codeRefId": "247-580",
+                "fraseo": "Rojo"
+              },
+              {
+                "codeId": "581",
+                "codeRefId": "247-581",
+                "fraseo": "Azul"
+              },
+              {
+                "codeId": "582",
+                "codeRefId": "247-582",
+                "fraseo": "Amarillo"
+              },
+              {
+                "codeId": "583",
+                "codeRefId": "247-583",
+                "fraseo": "Verde"
+              },
+              {
+                "codeId": "584",
+                "codeRefId": "247-584",
+                "fraseo": "Morado"
+              },
+              {
+                "codeId": "585",
+                "codeRefId": "247-585",
+                "fraseo": "Azul celeste"
+              },
+              {
+                "codeId": "586",
+                "codeRefId": "247-586",
+                "fraseo": "Naranja"
+              },
+              {
+                "codeId": "S587",
+                "codeRefId": "247-587",
+                "fraseo": "Gris"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
